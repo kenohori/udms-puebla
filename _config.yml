@@ -10,6 +10,8 @@ description: > # this means to ignore newlines until "baseurl:"
 # url: "http://localhost"
 baseurl: "/udms"
 url: "https://ken.mx"
+# baseurl: "/udms2017"
+# url: "http://ing.pue.itesm.mx/"
 
 # twitter_username: jekyllrb
 # github_username:  jekyll
