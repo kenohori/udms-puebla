@@ -3,16 +3,75 @@ layout: default
 title: 2nd International Conference on Smart Data and Smart Cities
 ---
 
-<a name="puebla" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+<a name="carolino" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 
 <h2>Venue</h2>
 <br />
 
-<p>The conference will take place in a venue to be defined within the historic centre of beautiful Puebla, Mexico. More precise information on the venue will be available in early 2017.</p>
+<h4>Carolino building</h4>
 
+<p>The conference will take place in the Salón de proyecciones (Projections hall) of the Carolino building, a historical building of the Benemérita Universidad Autónoma de Puebla (BUAP). It is a beautiful former Jesuit college dating back to the 17th century.</p>
+
+<img src="{{ "/img/carolino.jpg" | prepend: site.baseurl }}" class="img-responsive" />
+<p style="text-align: right;"><small>Photo: Jesús Pérez (CC BY-NC-ND 2.0)</small></p>
+
+<img src="{{ "/img/proyecciones.jpg" | prepend: site.baseurl }}" class="img-responsive" />
+<p style="text-align: right;"><small>Photo: BUAP</small></p>
+
+<p><strong>How to get there</strong>: The Carolino building is located at Calle 4 Sur 104 in the historic centre of Puebla. You can find it on <a href="https://www.google.com.mx/maps/place/Autonomous+University+of+Puebla/@19.0419931,-98.1958466,18.52z/data=!4m5!3m4!1s0x0:0x94b7bdad22f8545a!8m2!3d19.0421025!4d-98.1951644?hl=en">Google Maps</a> or at the marker's location on the map below.</p>
+
+<div class="row">
+	<div class="col-md-12" id="localmap" style="height: 350px"></div>
+</div>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1Ijoia2Vub2hvcmkiLCJhIjoiTlQyblc2ayJ9.cxdc2HKXV1ZsDL5A-GSHFA';
+  var localmap = new mapboxgl.Map({
+    container: 'localmap',
+    style: 'mapbox://styles/kenohori/civ755tht00282il15wzp492x',
+    center: [-98.1951881, 19.0421175],
+    zoom: 16.0
+  });
+  var markers = {
+    "type": "FeatureCollection",
+    "features": [{
+      "type": "Feature",
+      "properties": {
+        "description": "",
+        "iconSize": [200, 200]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.1951881, 19.0421175]
+      }
+    }]
+  }
+  // add markers to map
+  markers.features.forEach(function(marker) {
+    // create a DOM element for the marker
+    var el = document.createElement('div');
+    el.className = 'marker';
+    el.style.backgroundImage = 'url(https://upload.wikimedia.org/wikipedia/commons/6/69/Red_circle_%28thin%29.svg)';
+    el.style.width = marker.properties.iconSize[0] + 'px';
+    el.style.height = marker.properties.iconSize[1] + 'px';
+
+    el.addEventListener('click', function() {
+      var popup = new mapboxgl.Popup({closeOnClick: false})
+        .setLngLat(markers.features[0].geometry.coordinates)
+        .setHTML(markers.features[0].properties.description)
+        .addTo(map);
+    });
+
+    // add marker to map
+    new mapboxgl.Marker(el, {offset: [-marker.properties.iconSize[0] / 2, -marker.properties.iconSize[1] / 2]})
+      .setLngLat(markers.features[0].geometry.coordinates)
+      .addTo(localmap);
+  });
+</script>
+<br />
+
+<a name="puebla" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 <br />
 <h4>Puebla</h4>
-<br />
 
 Puebla is the fourth biggest city in Mexico and offers plenty of attractions, including its baroque historic centre, which has been designated a UNESCO World Heritage Site. Within Mexico, it is famous for its food, Talavera pottery and industrial output. Nearby is the Great Pyramid of Cholula, probably the largest that exists in the world today. For more information, you can visit the official website of Puebla's <a href="http://puebla.travel/en/">Secretariat of Tourism</a>.<br />
 
@@ -23,17 +82,16 @@ Puebla is the fourth biggest city in Mexico and offers plenty of attractions, in
 <a name="getting" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 <br />
 <h4>Getting to Puebla</h4>
-<br />
 
 <p>Puebla is located in central Mexico, 130 km east of Mexico City. From abroad, it is easily accessible by flying to Puebla International Airport (PBC) or by flying to Mexico City International Airport (MEX) and then taking a bus. There are frequent direct buses from the Mexico City airport to Puebla.</p>
 
 <div class="row">
-	<div class="col-md-12" id="map" style="height: 350px"></div>
+	<div class="col-md-12" id="regionmap" style="height: 350px"></div>
 </div>
 <script>
   mapboxgl.accessToken = 'pk.eyJ1Ijoia2Vub2hvcmkiLCJhIjoiTlQyblc2ayJ9.cxdc2HKXV1ZsDL5A-GSHFA';
-  var map = new mapboxgl.Map({
-    container: 'map',
+  var regionmap = new mapboxgl.Map({
+    container: 'regionmap',
     style: 'mapbox://styles/kenohori/civ755tht00282il15wzp492x',
     center: [-98.20701434190788, 19.040128501056813],
     zoom: 7.5
@@ -52,15 +110,38 @@ Puebla is the fourth biggest city in Mexico and offers plenty of attractions, in
 <a name="hotels" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 <br />
 <h4>Hotels</h4>
-<br />
 
-We are arranging special deals with hotels in Puebla. As soon as we have some confirmed, they will be posted here.
+<p>Puebla is a large city, so if you want to be close to the venue, you will want to stay within the historic centre. The following recommended hotels are very close to the Carolino building.</p>
 
-<br />
+<address>
+<strong>Hotel Palacio de San Leonardo (Hotel Sede)</strong><br />
+Avenida 2 Oriente 211<br />
+Phone: <a href="tel:+52 222 223 6600">+52 (222) 223 6600</a><br />
+E-mail: <a href="mailto:reservaciones@hotelsanleonardo.com.mx ">reservaciones@hotelsanleonardo.com.mx </a><br />
+Website: <a href="http://www.hotelsanleonardo.com.mx">www.hotelsanleonardo.com.mx</a>
+</address>
+
+<address>
+<strong>Hotel San Pedro</strong><br />
+Calle 2 Oriente 202<br />
+Phone: <a href="tel:+52 222 891 5700">+52 (222) 891 5700</a><br />
+Toll-free phone (within Mexico): <a href="tel:01 800 712 28 08">01 800 712 28 08</a><br />
+E-mail: <a href="mailto:reservaciones@hotelsanpedro.mx">reservaciones@hotelsanpedro.mx</a><br />
+Website: <a href="http://www.hotelsanpedro.mx">www.hotelsanpedro.mx</a>
+</address>
+
+<address>
+<strong>Hotel Colonial de Puebla</strong><br />
+Calle 4 Sur 105 <br />
+Phone: <a href="tel:+52 222 246 4612">+52 (222) 246 4612<</a><br />
+Toll-free phone (within Mexico): <a href="01 800 013 0000">01 800 013 0000</a><br />
+Email: <a href="mailto:hotelcolonial@colonial.com.mx">hotelcolonial@colonial.com.mx</a><br />
+Website: <a href="http://colonial.com.mx">colonial.com.mx</a>
+</address>
+
 <a name="visa" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
 <br />
 <h4>Visa</h4>
-<br />
 
 <p>Nationals of many countries do not need a visa to enter Mexico, including most of the Americas and Europe, as well as several countries in Asia. You can check if you need a visa in <a href="https://www.timaticweb.com/cgi-bin/tim_website_client.cgi?FullText=1&COUNTRY=MX&SECTION=VI&SUBSECTION=00&user=KLMB2C&subuser=KLMB2C">TimaticWeb</a> or directly from the <a href="http://www.inm.gob.mx/gobmx/word/index.php/paises-requieren-visa-para-mexico/">website</a> of the Mexican National Migration Institute (in Spanish). In addition, permanent residents of Canada, the United States, Japan, the United Kingdom or any of the Schengen countries do not need a visa no matter their nationality. The same is true for holders of a valid United States visa.</p>
 
