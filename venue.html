@@ -67,6 +67,65 @@ title: Venue | 2nd International Conference on Smart Data and Smart Cities
       .addTo(localmap);
   });
 </script>
+<br /><br />
+
+<a name="tec" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>
+
+<h4>Tecnológico de Monterrey Campus Puebla</h4>
+
+<p>The hackathon will take place in the Puebla Campus of the Tecnológico de Monterrey.</p>
+
+<img src="{{ "/img/tec.jpg" | prepend: site.baseurl }}" class="img-responsive" />
+
+<p><strong>How to get there</strong>: The Tecnológico de Monterrey is located at Vía Atlixcáyotl 2301, Reserva Territorial Atlixcáyotl, a couple kilometres south of the historic centre of Puebla. You can find it on <a href="https://www.google.com/maps/place/Tecnológico+de+Monterrey+Campus+Puebla/@19.0189093,-98.244573,15.67z/data=!4m12!1m6!3m5!1s0x85cfc74296a8201f:0x8888d7339559ccd4!2sTecnológico+de+Monterrey+Campus+Puebla!8m2!3d19.018257!4d-98.241331!3m4!1s0x85cfc74296a8201f:0x8888d7339559ccd4!8m2!3d19.018257!4d-98.241331">Google Maps</a> or at the marker's location on the map below.</p>
+
+<div class="row">
+  <div class="col-md-12" id="tecmap" style="height: 350px"></div>
+</div>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1Ijoia2Vub2hvcmkiLCJhIjoiTlQyblc2ayJ9.cxdc2HKXV1ZsDL5A-GSHFA';
+  var tecmap = new mapboxgl.Map({
+    container: 'tecmap',
+    style: 'mapbox://styles/kenohori/civ755tht00282il15wzp492x',
+    center: [-98.2412475, 19.0181563],
+    zoom: 15.4
+  });
+  var markers = {
+    "type": "FeatureCollection",
+    "features": [{
+      "type": "Feature",
+      "properties": {
+        "description": "",
+        "iconSize": [200, 200]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.2412475, 19.0181563]
+      }
+    }]
+  }
+  // add markers to map
+  markers.features.forEach(function(marker) {
+    // create a DOM element for the marker
+    var el = document.createElement('div');
+    el.className = 'marker';
+    el.style.backgroundImage = 'url(https://upload.wikimedia.org/wikipedia/commons/6/69/Red_circle_%28thin%29.svg)';
+    el.style.width = marker.properties.iconSize[0] + 'px';
+    el.style.height = marker.properties.iconSize[1] + 'px';
+
+    el.addEventListener('click', function() {
+      var popup = new mapboxgl.Popup({closeOnClick: false})
+        .setLngLat(markers.features[0].geometry.coordinates)
+        .setHTML(markers.features[0].properties.description)
+        .addTo(map);
+    });
+
+    // add marker to map
+    new mapboxgl.Marker(el, {offset: [-marker.properties.iconSize[0] / 2, -marker.properties.iconSize[1] / 2]})
+      .setLngLat(markers.features[0].geometry.coordinates)
+      .addTo(tecmap);
+  });
+</script>
 <br />
 
 <a name="puebla" style="display: block; position: relative; top: -50px; visibility: hidden;"></a>

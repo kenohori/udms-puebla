@@ -1,0 +1,1047 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wid",
+				"width"
+			],
+			[
+				"out",
+				"outputformat"
+			],
+			[
+				"vert",
+				"vertices"
+			],
+			[
+				"test",
+				"test01json"
+			],
+			[
+				"te",
+				"test01json"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"en",
+				"entry"
+			],
+			[
+				"t",
+				"topcount"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"auto",
+				"autofocus\tAttr"
+			],
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"ge",
+				"geometry"
+			],
+			[
+				"marke",
+				"markers"
+			],
+			[
+				"merge",
+				"merged_bib_file_text"
+			],
+			[
+				"bib",
+				"bib_file"
+			],
+			[
+				"files",
+				"filesize"
+			],
+			[
+				"pu",
+				"pubs_page"
+			],
+			[
+				"pubs",
+				"pubs_text"
+			],
+			[
+				"jekyll",
+				"jekyll_output"
+			],
+			[
+				"autho",
+				"authorsString"
+			],
+			[
+				"sear",
+				"searchWhere"
+			],
+			[
+				"ite",
+				"itemize"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"linkin",
+				"linkingrules"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 692,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 6032,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "programme.html",
+			"settings":
+			{
+				"buffer_size": 8244,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "workshops.html",
+			"settings":
+			{
+				"buffer_size": 7694,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "---"
+			}
+		},
+		{
+			"file": "_includes/header.html",
+			"settings":
+			{
+				"buffer_size": 3722,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "registration.html",
+			"settings":
+			{
+				"buffer_size": 7729,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "papers.html",
+			"settings":
+			{
+				"buffer_size": 8533,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scholarships.html",
+			"settings":
+			{
+				"buffer_size": 2940,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "committee.html",
+			"settings":
+			{
+				"buffer_size": 6195,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "venue.html",
+			"settings":
+			{
+				"buffer_size": 9108,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Synesthesia/Synesthesia.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"package ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"package contro",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"delete",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"figure",
+				"Snippet: figure"
+			],
+			[
+				"itemi",
+				"Snippet: Itemize"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet",
+				"Snippet: figure"
+			],
+			[
+				"up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"compile",
+				"Synesthesia: Compile Highlighting Scheme"
+			],
+			[
+				"new hi",
+				"Synesthesia: New Highlighting Scheme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"visi",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"list packa",
+				"Package Control: List Packages"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"package control ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package control upgr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package control ",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublimelinter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package contr",
+				"Package Control: Remove Package"
+			],
+			[
+				"toggle lin",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"sublimelin",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"count",
+				"SublimeLinter: No Column Only Marks Gutter"
+			],
+			[
+				"prefs",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"sublimelinter ne",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"latex",
+				"LaTeXTools: Jump to PDF"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 357.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '261dd1222b4693ce6d4f85f9c827ac06' + '6d5ab8ebdd020086947172a8a1356bb6'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"which linter",
+			"echo $PATH",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ken/Downloads/pugixml-1.8/src/pugiconfig.hpp",
+		"/Users/ken/Versioned/my-website/en/cv/index.html",
+		"/Users/ken/Versioned/cityjson/example-datasets/Rotterdam/Delfshaven/3-20-DELFSHAVEN.json",
+		"/Users/ken/Versioned/udms-puebla/index.html",
+		"/Users/ken/Versioned/cityjson/software/cityjson-info/c++11/src/main.cpp",
+		"/Users/ken/Versioned/udms-puebla/registration.html",
+		"/Users/ken/Versioned/cityjson/software/cityjson-info/c++11/include/json.hpp",
+		"/Users/ken/Versioned/cityjson/software/cityjson-info/ruby/cityjson-info.rb",
+		"/Users/ken/Versioned/udms-puebla/_config.yml",
+		"/Users/ken/Versioned/udms-puebla/_layouts/default.html",
+		"/Users/ken/Versioned/udms-puebla/scholarships.html",
+		"/Users/ken/Versioned/udms-puebla/programme.html",
+		"/Users/ken/Versioned/udms-puebla/_includes/header.html",
+		"/Users/ken/Versioned/udms-puebla/papers.html",
+		"/Users/ken/Versioned/code/ifc2objs",
+		"/Users/ken/Versioned/udms-puebla/keynotes.html",
+		"/Users/ken/Versioned/10596181cmvxpsymnvsv/main.tex",
+		"/Users/ken/Versioned/udms-puebla/committee.html",
+		"/Users/ken/Versioned/udms-puebla/venue.html",
+		"/Users/ken/Versioned/udms-puebla/_includes/head.html",
+		"/Users/ken/Versioned/website-urbanismnl/index.html",
+		"/Users/ken/Versioned/website-urbanismnl/css/mine.css",
+		"/Users/ken/Versioned/website-urbanismnl/css/bulma.css",
+		"/Users/ken/Versioned/9403973sjzbkpptsrcm/main.tex",
+		"/Users/ken/Versioned/geobim-report/guidelines.tex",
+		"/Users/ken/Versioned/geobim-report/report.tex",
+		"/Users/ken/Versioned/website-urbanismnl/_config.yml",
+		"/Users/ken/Versioned/website/_data/conferences.yml",
+		"/Users/ken/Downloads/ArcSpliting/An Algorithm for Arc Splitting with Output of Topology.tex",
+		"/Users/ken/Postdoc/data/GeoBIM/Rabarberstraat144.ifc",
+		"/Users/ken/Desktop/web.config",
+		"/Users/ken/Versioned/authors-draft-paper-template/authorversion.tex",
+		"/Users/ken/Versioned/ifc2citygml/off2citygml/CommonGeomFunctions.cpp",
+		"/Users/ken/Versioned/ifc2citygml/off2citygml/ManifoldFix.cpp",
+		"/Users/ken/Versioned/ifc2citygml/off2citygml/ManifoldFix.h",
+		"/Users/ken/Versioned/ifc2citygml/off2citygml/stdafx.h",
+		"/usr/local/Cellar/cgal/4.9.1/include/CGAL/Nef_polyhedron_3.h",
+		"/Users/ken/Versioned/udmv2017-paper/CityGMLtoCMaps-udmv2017.tex",
+		"/Users/ken/Versioned/udmv2017-paper/EGauthorGuidelines-body.inc",
+		"/Users/ken/Versioned/my-website/_posts/2017-07-10-how-to-annoy-submitters.md",
+		"/etc/apache2/extra/httpd-userdir.conf",
+		"/etc/apache2/httpd.conf",
+		"/private/etc/apache2/users/ken.conf",
+		"/Users/ken/Versioned/ifc2citygml/off2citygml/CommonGeomFunctions.h",
+		"/Users/ken/Versioned/ifc2citygml/off2citygml/FileIO.cpp",
+		"/Users/ken/Desktop/open.off",
+		"/Users/ken/Versioned/papers/3D Geoinfo 2017/main-av.tex",
+		"/Users/ken/Downloads/tests/CUVO-IfcColumn.obj",
+		"/Users/ken/Versioned/my-website/es/index.html",
+		"/Users/ken/Versioned/my-website/en/index.html",
+		"/Users/ken/Versioned/my-website/index.html",
+		"/Users/ken/Versioned/papers/PeerJ CS/paper-av.tex",
+		"/Users/ken/Versioned/papers/3D Geoinfo 2017/main.tex",
+		"/Users/ken/Postdoc/data/GeoBIM/Rabarberstraat144.obj",
+		"/Users/ken/Desktop/weather-moved.rb",
+		"/Users/ken/Downloads/ifc2objs",
+		"/Users/ken/Versioned/papers/PeerJ CS/paper.tex",
+		"/Users/ken/Downloads/ifc2objs.sh",
+		"/Users/ken/Versioned/papers/JOSIS/paper-av.tex",
+		"/Users/ken/Postdoc/data/GeoBIM/Rabarberstraat144.mtl",
+		"/Users/ken/Versioned/my-website/_drafts/perverse-incentives-in-academia.md",
+		"/Users/ken/Versioned/my-website/_drafts/social-networking-in-academia.md",
+		"/Users/ken/Versioned/website/_data/alerts.yml",
+		"/Users/ken/Versioned/website/_data/projects.yml",
+		"/Users/ken/Versioned/website/_posts/2017-05-31-ijgi-paper.md",
+		"/Users/ken/Versioned/code/netatmo/alltoonefile.rb",
+		"/Users/ken/Downloads/The Hague.csv",
+		"/Users/ken/Desktop/test/2017-04-08 06:03:12 +0200.txt",
+		"/Users/ken/Downloads/weoreptc.aspx",
+		"/Users/ken/Versioned/papers/PeerJ CS/paper-new.tex",
+		"/Users/ken/Versioned/papers/PeerJ CS/paper-old.tex",
+		"/Users/ken/Versioned/papers/PeerJ CS/paper-diff.tex",
+		"/Users/ken/.Trash/paper-diff.tex",
+		"/Users/ken/Desktop/orthoplex.obj",
+		"/Users/ken/Versioned/photos/fotos.php",
+		"/Users/ken/Versioned/papers/PeerJ CS/paper.bbl",
+		"/Users/ken/Downloads/cityjson.rb",
+		"/Users/ken/Downloads/test01ken.json",
+		"/Users/ken/Downloads/test01.json",
+		"/Users/ken/Downloads/readme-swiss.json",
+		"/Users/ken/Versioned/website/index.html",
+		"/Users/ken/Versioned/website/jobs/index.md",
+		"/Users/ken/Versioned/website/jobs/phd2umnd2016/index.md",
+		"/Users/ken/Versioned/website/jobs/phdcmt2017/index.md",
+		"/Users/ken/Versioned/code/netatmo/weather-cron.rb",
+		"/Users/ken/Versioned/code/netatmo/weather.rb",
+		"/Users/ken/Versioned/thesis/linking-lods.tex",
+		"/Users/ken/Versioned/thesis/incremental-construction.tex",
+		"/Users/ken/Versioned/thesis/cleaning.tex",
+		"/Users/ken/Versioned/thesis/operations-background.tex",
+		"/Users/ken/Versioned/thesis/nd-modelling.tex",
+		"/Users/ken/Versioned/thesis/modelling-background.tex",
+		"/Users/ken/Versioned/thesis/thesis.tex",
+		"/Users/ken/Versioned/my-website/en/papers/index.html",
+		"/Users/ken/Versioned/my-website/es/papers/index.html",
+		"/Users/ken/Downloads/out.off",
+		"/Users/ken/Downloads/ISPRSguidelines_authors_latex-161114/ISPRSguidelines_authors.tex",
+		"/Users/ken/Desktop/non_simple_nef.obj",
+		"/Users/ken/Versioned/website/projects/geobim/index.md",
+		"/Users/ken/Desktop/entity.off",
+		"/Users/ken/Desktop/error/error1.off",
+		"/Users/ken/Desktop/opening.off",
+		"/Users/ken/Desktop/error.off",
+		"/Users/ken/Downloads/triangle/tricall.c",
+		"/Users/ken/Versioned/website/_data/3dtalks.yml",
+		"/Users/ken/Downloads/test.off",
+		"/Users/ken/Postdoc/data/GeoBIM/CUVO Ockenburghstraat KOW.ifc",
+		"/Users/ken/Postdoc/data/GeoBIM/Witte_de_Withstraat (20150508).ifc",
+		"/Users/ken/Desktop/error.off.obj",
+		"/Users/ken/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/9EFE7F1F-181D-4AFE-AEDE-ACC3B60753DE/Payment attached(1).html",
+		"/Users/ken/Versioned/IfcOpenShell_CGAL/test/input/IfcCircleProfileDef.obj",
+		"/Users/ken/Desktop/weather.rb",
+		"/Users/ken/Desktop/The Hague/2017-04-07 20:23:17 -0500.txt",
+		"/usr/local/Cellar/ruby/2.4.1_1/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb",
+		"/Users/ken/Versioned/IfcOpenShell_CGAL/test/input/IfcIShapeProfileDef.ifc",
+		"/Users/ken/Versioned/abe-latex/example.tex",
+		"/Users/ken/Versioned/IfcOpenShell_CGAL/test/input/advanced_brep.obj",
+		"/Users/ken/Versioned/abe-latex/abe.cls",
+		"/Users/ken/Downloads/b1_lod1_s.gml",
+		"/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science/libcitygml.rb",
+		"/Users/ken/Versioned/homebrew-science/libcitygml.rb",
+		"/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science/opencollada.rb",
+		"/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/libcitygml.rb",
+		"/Users/ken/Downloads/libcitygml-master/README.md",
+		"/Users/ken/Downloads/IfcOpenShell-0.5.0-preview2/README.md",
+		"/Users/ken/Downloads/IfcOpenShell-0.5.0-preview2/nix/build-all.py",
+		"/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/ifcopenshell.rb",
+		"/Users/ken/Versioned/IfcOpenShell_CGAL/test/input/acad2010_objects.obj"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 97.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" col-sm-3",
+			"col-xs-6",
+			"col-xs-3",
+			"<br />",
+			"</div><br />",
+			"<div class=\"row\">",
+			"3",
+			"Coffee break",
+			" - ",
+			"\n",
+			" - ",
+			":",
+			"fee:",
+			"<li>",
+			"workshop,",
+			"Entrace"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								461,
+								461
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3835,
+								3835
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 310.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "programme.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7645,
+								7645
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2839.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "workshops.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7691,
+								7691
+							]
+						],
+						"settings":
+						{
+							"auto_name": "---",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 879.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_includes/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3722,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2768,
+								2733
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 261.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "registration.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4642,
+								4642
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 816.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "papers.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "scholarships.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2940,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "committee.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "venue.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1901,
+								1901
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 318.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 151.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 164.0
+	},
+	"pinned_build_system": "",
+	"project": "puebla.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
